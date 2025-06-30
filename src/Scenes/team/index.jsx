@@ -1,7 +1,7 @@
 import { Box, Typography, useTheme } from "@mui/material";
 import { tokens } from "../../theme";
 import { DataGrid, GridToolbar } from "@mui/x-data-grid";
-import { mockDataTeam } from "../../data/mochData";
+import { mockDataTeam } from "../../data/mockData";
 import Header from "../../Components/Header";
 import AdminPanelSettingsOutlinedIcon from "@mui/icons-material/AdminPanelSettingsOutlined";
 import LockOpenOutlinedIcon from "@mui/icons-material/LockOpenOutlined";
@@ -87,7 +87,7 @@ const Team = () => {
           "& .name-column--cell": {
             color: colors.greenAccent[300],
           },
-          "& .MuiDataGrid-columnHeaders": {
+          "& .MuiDataGrid-columnHeader": {
             backgroundColor: colors.blueAccent[700],
             borderBottom: "none",
           },

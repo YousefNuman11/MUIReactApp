@@ -226,7 +226,7 @@ const Sidebar = () => {
             />
             <Item
               title="Geography Chart"
-              to="/geograpgy"
+              to="/geography"
               icon={<MapOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
